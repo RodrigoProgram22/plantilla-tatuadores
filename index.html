@@ -1,13 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Icon -->
+    <link rel="icon" type="image/jpg" href="assets/logo.png" />
     <title>Tatuador</title>
-</head>
-<body>
-    <h1 class="text-center text-danger">Hola Mundo</h1>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+      <div class="container-fluid">
+        <div>
+          <img src="assets/logo.png" class="logo-img" alt="logo decorativo" />
+          <a class="navbar-brand fw-bold titulo-nav" href="#"> Rodri Tatoo </a>
+        </div>
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="collapse navbar-collapse text-center text-warning me-3"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link btnNav fw-bold active px-0 mx-3"
+              aria-current="page"
+              href="#"
+            >
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link btnNav fw-bold active px-0 mx-3" href="#trabajo">
+              Trabajos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link btnNav fw-bold active px-0 mx-3"
+              href="#nuestroEquipo"
+            >
+              Equipo
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btnNav fw-bold active px-0 mx-3" href="#estudio">
+              Estudio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link btnNav fw-bold active px-0 mx-3"
+              href="#contacto"
+            >
+              Contacto
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="barra-progreso position-absolute top-100 start-50 translate-middle"
+      >
+        <div class="progreso" id="progress"></div>
+      </div>
+    </nav>
+    <header class="p-0 m-0 position-relative">
+      <img src="assets/tatuador.jpg" class="img-fluid backg" alt="header" />
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h1
+          class="primario fuente1 fw-bold display-3 d-none d-md-block text-center"
+        >
+          Rodri Tatoo
+        </h1>
+        <h2
+          class="primario fuente1 fw-bold display-5 d-none d-md-block text-center"
+        >
+          Studio
+        </h2>
+      </div>
+    </header>
     <script src="js/bootstrap.min.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
