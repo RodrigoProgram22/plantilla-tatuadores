@@ -132,6 +132,12 @@ nav {
   border: none;
   border-radius: 5px;
 }
+/* trabajos */
+.img-prueba{
+  width: 400px;
+  object-fit: contain;
+}
+
 @media screen and (max-width: 767px) {
   .img-deco {
     width: 150px;
