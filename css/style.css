@@ -28,11 +28,11 @@ a {
 #inicio {
   scroll-margin-top: 5.4em;
 }
-#servicios {
+#trabajo {
   scroll-margin-top: 5.4em;
 }
-#nuestroEquipo {
-  scroll-margin-top: 5.4em;
+#sobreMi {
+  scroll-margin-top: 1.4em;
 }
 #estudio {
   scroll-margin-top: 5.4em;
@@ -93,6 +93,9 @@ nav {
 }
 .titulo-nav:hover{
   color: var(--secundario);
+}
+.sobreMi{
+  width: 70px;
 }
 /* header */
 .backg{
