@@ -140,7 +140,14 @@ nav {
   width: 400px;
   object-fit: contain;
 }
-
+/* estudio */
+.img-estudio{
+  width: 450px;
+  object-fit: contain;
+  box-shadow: 0 15px 20px black;
+  border: none;
+  border-radius: 5px;
+}
 @media screen and (max-width: 767px) {
   .img-deco {
     width: 150px;
