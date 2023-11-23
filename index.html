@@ -134,6 +134,7 @@
     <section id="trabajo">
       <div class="container text-start fuente1 my-5 secundario">
         <h2 class="text-center">Mis Trabajos</h2>
+        <hr />
       </div>
       <div class="justify-content-center secundario d-flex flex-wrap">
         <img
@@ -174,11 +175,15 @@
       </div>
     </section>
     <section class="container" id="estudio">
+      <div class="container text-start fuente1 my-5 secundario">
+        <h2 class="text-center">Mi Estudio</h2>
+        <hr />
+      </div>
       <div
         class="row row-cols-1 row-cols-md-2 g-4 p-4 justify-content-center align-items-center"
       >
         <div class="col secundario">
-          <h1 class="fuente1 my-3 text-center">Mi Estudio</h1>
+          <h3 class="fuente1 my-3 text-center">Nombre del lugar</h3>
           <p class="text-center">
             Ubicado en : Lorem ipsum dolor sit amet consectetur, adipisicing
             elit. Aperiam facere autem Maiores, eos minus hic incidunt possimus
@@ -193,10 +198,70 @@
         <div class="col text-center text-md-start">
           <img
             src="assets/studio.jpg"
-            class="img-estudio"
+            class="img-fluid img-estudio"
             title="foto del estudio"
             alt="foto del estudio"
           />
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="container text-start fuente1 my-5 secundario">
+        <h2 class="text-center">Contacto</h2>
+        <hr />
+      </div>
+      <div class="d-flex justify-content-center my-2">
+        <div class="card">
+          <span class="title">Consulta por turnos</span>
+          <form
+            class="form"
+            action="https://formsubmit.co/rodrigoprograma22@gmail.com"
+            method="POST"
+          >
+            <div class="group">
+              <input
+                placeholder=""
+                type="text"
+                name="name"
+                id="name"
+                required
+              />
+              <label for="name">Nombre</label>
+            </div>
+            <div class="group">
+              <input
+                placeholder=""
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+              <label for="email">Email</label>
+            </div>
+            <div class="group">
+              <input
+                placeholder=""
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+              />
+              <label for="phone">Telefono</label>
+            </div>
+            <div class="group">
+              <textarea
+                placeholder=""
+                id="comment"
+                name="comment"
+                rows="5"
+                required
+              ></textarea>
+              <label for="comment">Mensaje</label>
+            </div>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500" />
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
         </div>
       </div>
     </section>
