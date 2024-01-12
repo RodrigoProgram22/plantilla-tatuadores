@@ -16,6 +16,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
     />
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Tatuador</title>
   </head>
   <body>
@@ -109,7 +111,7 @@
     </header>
     <section class="container" id="sobreMi">
       <div class="row row-cols-1 row-cols-md-2 g-4 p-4 justify-content-center">
-        <div class="col text-center text-md-end">
+        <div class="col text-center text-md-end" data-aos="fade-right" data-aos-duration="3000">
           <img
             src="assets/trabajos/tatto5.jpg"
             class="img-deco"
@@ -117,7 +119,7 @@
             alt="foto perfil"
           />
         </div>
-        <div class="col secundario text-center text-md-start">
+        <div class="col secundario text-center text-md-start" data-aos="fade-left" data-aos-duration="3000">
           <h1 class="fuente1 primario my-3">Exequiel Romano, Tatuador.</h1>
           <p class="w-100 w-md-75">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
@@ -152,35 +154,47 @@
           class="img-prueba p-3"
           alt="tatto"
           title="tatto"
+          data-aos="fade-up"
+          data-aos-duration="1500"
         />
         <img
           src="assets/trabajos/tatto2.jpg"
           class="img-prueba p-3"
           alt="tatto 2"
           title="tatto 2"
+          data-aos="fade-up"
+          data-aos-duration="2000"
         /><img
           src="assets/trabajos/tatto3.jpg"
           class="img-prueba p-3"
           alt="tatto 3"
           title="tatto 3"
+          data-aos="fade-up"
+          data-aos-duration="3000"
         />
         <img
           src="assets/trabajos/tatto4.jpg"
           class="img-prueba p-3"
           alt="tatto 4"
           title="tatto 4"
+          data-aos="fade-up"
+          data-aos-duration="1500"
         />
         <img
           src="assets/trabajos/tatto5.jpg"
           class="img-prueba p-3"
           alt="tatto 5"
           title="tatto 5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
         />
         <img
           src="assets/trabajos/tatto6.jpg"
           class="img-prueba p-3"
           alt="tatto 6"
           title="tatto 6"
+          data-aos="fade-up"
+          data-aos-duration="3000"
         />
       </div>
     </section>
@@ -192,7 +206,7 @@
       <div
         class="row row-cols-1 row-cols-md-2 g-4 p-4 justify-content-center align-items-center"
       >
-        <div class="col secundario">
+        <div class="col secundario" data-aos="fade-right" data-aos-duration="3000">
           <h3 class="fuente2 my-3 text-center">Nombre del lugar</h3>
           <p class="text-center">
             Ubicado en : Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -205,7 +219,7 @@
             </a>
           </div>
         </div>
-        <div class="col text-center text-md-start">
+        <div class="col text-center text-md-start" data-aos="fade-left" data-aos-duration="3000">
           <img
             src="assets/studio.jpg"
             class="img-fluid img-estudio"
@@ -220,8 +234,8 @@
         <h2 class="text-center fuente1">Contacto</h2>
         <hr />
       </div>
-      <div class="d-flex justify-content-center my-2">
-        <div class="card">
+      <div class="d-flex justify-content-center my-2" >
+        <div class="card" data-aos="flip-up">
           <span class="title fuente2">Consulta por turnos</span>
           <form
             class="form"
@@ -270,7 +284,11 @@
             </div>
             <button type="submit">Enviar</button>
             <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500" /> -->
-            <input type="hidden" name="_next" value="https://tattorodri.netlify.app">
+            <input
+              type="hidden"
+              name="_next"
+              value="https://tattorodri.netlify.app"
+            />
             <input type="hidden" name="_captcha" value="false" />
           </form>
         </div>
@@ -372,5 +390,10 @@
     </footer>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <!-- Animaciones -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
